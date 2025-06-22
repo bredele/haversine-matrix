@@ -1,17 +1,14 @@
 {
   "name": "haversine-matrix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns distance matrix for collection of latitude/longitude points using the Haversine formula",
   "main": "./dist/cjs/index.js",
+  "files": ["dist"],
   "scripts": {
     "build": "cmplr --type-check",
     "test": "node --test dist/cjs/index.test.js"
   },
-  "keywords": [
-    "haversine",
-    "distance",
-    "matrix"
-  ],
+  "keywords": ["haversine", "distance", "matrix"],
   "author": "Olivier Wietrich",
   "license": "MIT",
   "devDependencies": {
