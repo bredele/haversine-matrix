@@ -42,6 +42,10 @@ const haversine = (x: number) => {
   return Math.sin(x / 2) * Math.sin(x / 2);
 };
 
+/**
+ * Return 2D matrix of distances between points.
+ */
+
 export const matrix = (points: Point[]): number[][] => {
   const n = points.length;
   const result: number[][] = new Array(n);
